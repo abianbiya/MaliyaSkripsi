@@ -1,0 +1,113 @@
+{% extends 'index.html' %}
+
+{% block menu %}
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+	<a class="navbar-brand" href="#">Decision Tree Classifier</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+
+	<div class="collapse navbar-collapse" id="navbarsExampleDefault">
+		<ul class="navbar-nav mr-auto">
+			<li class="nav-item">
+				<a class="nav-link" href="{{ url_for('home') }}">Home</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="{{ url_for('sistem') }}">"Sistem"</a>
+			</li>
+		</ul>
+			<a href="javascript:window.history.back();" class="btn btn-outline-success my-2 my-sm-0">Back</a>
+	</div>
+</nav>
+{% endblock %}
+
+{% block isi %}
+
+<center><h2><strong>Decision Tree</strong> Classifier</h2></center><br>
+<div class="row">
+	<div class="col-sm-6 offset-sm-3">
+		<div class="card" >
+			<div class="card-body">
+				<h5 class="card-title">Accuracy</h5>
+				<table class="table table-hover">
+					<tbody id="tabel-info">
+						<tr><td>Akurasi</td><td>:</td><td>{{ acc }}%</td></tr>
+						<tr><td>Jumlah Fitur</td><td>:</td><td>{{ len_ori }}</td></tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</div><br>
+
+<center><h2><strong>Information Gain Ratio</strong> Feature Selection</h2></center><br>
+<h4> Ratio Calculation </h4>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">No</th>
+      <th scope="col">Atribut</th>
+      <th scope="col">Ratio</th>
+      <th scope="col">Choose</th>
+    </tr>
+  </thead>
+  <tbody>
+		{% for i, item in mi %}
+    <tr>
+      <th>{{ i+1 }}</th>
+      <td>{{ att[i] }}</td>
+			<td>{{ item }}</td>
+      <td>{{ 'Y' }}</td>
+    </tr>
+		{% endfor %}
+  </tbody>
+</table><br><br>
+
+<h4> Selected Features </h4>
+<div class="table-responsive">
+<table class="table">
+  <thead>
+    <tr>
+			{% for item in selected %}
+      	<th scope="col">{{ item }}</th>
+			{% endfor %}
+    </tr>
+  </thead>
+  <tbody>
+		{% for item in new_x %}
+		<tr>
+			{% for iteng in item %}
+	      <td>{{ iteng }}</td>
+			{% endfor %}
+    </tr>
+		{% endfor %}
+		<tr>
+			{% for iteng in selected %}
+	      <td>...</td>
+			{% endfor %}
+    </tr>
+  </tbody>
+</table>
+</div><br><br>
+
+<center><h2><strong>Decision Tree</strong> Classifier</h2></center><br>
+<div class="row">
+	<div class="col-sm-6 offset-sm-3">
+		<div class="card" >
+			<div class="card-body">
+				<h5 class="card-title">Selected Features Accuracy</h5>
+				<table class="table table-hover">
+					<tbody id="tabel-info">
+						<tr><td>Akurasi</td><td>:</td><td>{{ selected_acc }}%</td></tr>
+						<tr><td>Jumlah Fitur</td><td>:</td><td>{{ len }}</td></tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</div><br>
+{% endblock %}
+
+{% block jsinline %}
+
+{% endblock %}

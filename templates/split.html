@@ -1,0 +1,85 @@
+{% extends 'index.html' %}
+
+
+{% block isi %}
+
+<center><h2><strong>Split</strong> Dataset</h2></center><br>
+
+
+<div class="row">
+	<div class="col-sm-12 col-md-12 col-lg-12">
+		<div class="card" >
+			<div class="card-body">
+				<h5 class="card-title">Data Training</h5>
+				<div class="table-responsive">
+				<table class="table table-hover">
+					<thead>
+						<tr>
+							<td>No.</td>
+							{% for item in attr %}
+								<td>{{ item }}</td>
+							{% endfor %}
+							<td>Class</td>
+						</tr>
+					</thead>
+
+					<tbody id="table-info">
+						{% for i, item in X_train %}
+							<tr>
+								<td>{{ i+1 }}</td>
+							{% for val in item %}
+								<td> {{ '%0.2f' % val|float }}</td>
+							{% endfor %}
+								<td>{% if(y_train[i] == 1) %} M {% else %} B {% endif %}</td>
+							</tr>
+						{% endfor %}
+
+					</tbody>
+				</table>
+			</div>
+			</div>
+		</div>
+	</div>
+</div><br>
+
+<div class="row">
+	<div class="col-sm-12 col-md-12 col-lg-12">
+		<div class="card" >
+			<div class="card-body">
+				<h5 class="card-title">Data Testing</h5>
+				<div class="table-responsive">
+				<table class="table table-hover">
+					<thead>
+						<tr>
+							<td>No.</td>
+							{% for item in attr %}
+								<td>{{ item }}</td>
+							{% endfor %}
+							<td>Class</td>
+						</tr>
+					</thead>
+
+					<tbody id="table-info">
+						{% for i, item in X_test %}
+							<tr>
+								<td>{{ i+1 }}</td>
+							{% for val in item %}
+								<td> {{ '%0.2f' % val|float }}</td>
+							{% endfor %}
+								<td>{% if(y_test[i] == 1) %} M {% else %} B {% endif %}</td>
+							</tr>
+						{% endfor %}
+
+					</tbody>
+				</table>
+			</div>
+			</div>
+		</div>
+	</div>
+</div><br>
+
+{% endblock %}
+
+{% block jsinline %}
+
+{% endblock %}

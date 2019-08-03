@@ -1,0 +1,318 @@
+2019-07-22 18:45:25,761 - pyswarms.discrete.binary - INFO - Optimize for 100 iters with {'c1': 0.5, 'c2': 0.5, 'w': 0.9, 'k': 30, 'p': 2}
+2019-07-22 18:45:25,780 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 18:45:25] "GET /pso HTTP/1.1" 500 -
+2019-07-22 18:45:25,797 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 18:45:25] "GET /pso?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2019-07-22 18:45:25,798 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 18:45:25] "GET /pso?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2019-07-22 18:45:25,799 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 18:45:25] "GET /pso?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2019-07-22 18:45:25,863 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 18:45:25] "GET /pso?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-07-22 18:46:02,729 - werkzeug - INFO -  * Detected change in '/Users/abianbiya/PycharmProjects/Maliya/main.py', reloading
+2019-07-22 18:46:04,018 - pyswarms.discrete.binary - INFO - Optimize for 100 iters with {'c1': 0.5, 'c2': 0.5, 'w': 0.9, 'k': 30, 'p': 2}
+2019-07-22 18:46:04,030 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 18:46:04] "GET /pso HTTP/1.1" 500 -
+2019-07-22 18:46:04,046 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 18:46:04] "GET /pso?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2019-07-22 18:46:04,047 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 18:46:04] "GET /pso?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2019-07-22 18:46:04,048 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 18:46:04] "GET /pso?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2019-07-22 18:46:04,109 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 18:46:04] "GET /pso?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-07-22 18:46:10,507 - werkzeug - INFO -  * Detected change in '/Users/abianbiya/PycharmProjects/Maliya/main.py', reloading
+2019-07-22 18:46:11,815 - pyswarms.discrete.binary - INFO - Optimize for 100 iters with {'c1': 0.5, 'c2': 0.5, 'w': 0.9, 'k': 30, 'p': 2}
+2019-07-22 18:46:12,180 - pyswarms.discrete.binary - INFO - Optimize for 100 iters with {'c1': 0.5, 'c2': 0.5, 'w': 0.9, 'k': 30, 'p': 2}
+2019-07-22 18:46:20,767 - pyswarms.discrete.binary - INFO - Optimization finished | best cost: 0.03508771929824561, best pos: [0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 1 1 0 1 1 1 0 0 1 0 0 1 0 0]
+2019-07-22 18:46:20,787 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 18:46:20] "GET /pso HTTP/1.1" 200 -
+2019-07-22 18:46:21,115 - pyswarms.discrete.binary - INFO - Optimization finished | best cost: 0.03508771929824561, best pos: [1 0 0 0 0 0 1 1 0 0 0 0 0 0 0 1 0 0 1 1 1 1 0 0 1 1 0 1 0 1]
+2019-07-22 18:46:21,119 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 18:46:21] "GET /pso HTTP/1.1" 200 -
+2019-07-22 18:46:21,146 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 18:46:21] "GET /static/js/vendor/jquery.min.js HTTP/1.1" 304 -
+2019-07-22 18:46:21,152 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 18:46:21] "GET /static/js/vendor/popper.min.js HTTP/1.1" 304 -
+2019-07-22 18:46:21,155 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 18:46:21] "GET /static/js/dropzone.js HTTP/1.1" 304 -
+2019-07-22 18:46:21,155 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 18:46:21] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+2019-07-22 18:46:21,160 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 18:46:21] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+2019-07-22 18:46:21,163 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 18:46:21] "GET /static/css/basic.css HTTP/1.1" 304 -
+2019-07-22 18:46:21,165 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 18:46:21] "GET /static/css/dropzone.css HTTP/1.1" 304 -
+2019-07-22 18:47:08,398 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 18:47:08] "GET /dataset HTTP/1.1" 200 -
+2019-07-22 18:47:08,477 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 18:47:08] "GET /favicon.ico HTTP/1.1" 404 -
+2019-07-22 18:47:09,082 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 18:47:09] "GET / HTTP/1.1" 200 -
+2019-07-22 18:47:09,933 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 18:47:09] "GET /dt HTTP/1.1" 200 -
+2019-07-22 18:47:09,999 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 18:47:09] "GET /favicon.ico HTTP/1.1" 404 -
+2019-07-22 18:48:32,028 - werkzeug - INFO -  * Detected change in '/Users/abianbiya/PycharmProjects/Maliya/main.py', reloading
+2019-07-22 18:51:38,530 - pyswarms.discrete.binary - INFO - Optimize for 100 iters with {'c1': 0.5, 'c2': 0.5, 'w': 0.9, 'k': 30, 'p': 2}
+2019-07-22 18:51:46,758 - pyswarms.discrete.binary - INFO - Optimization finished | best cost: 0.03508771929824561, best pos: [1 0 1 0 1 0 1 1 1 0 0 0 1 0 0 0 1 0 1 1 1 1 0 0 1 0 1 1 0 0]
+2019-07-22 18:51:46,782 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 18:51:46] "GET /pso HTTP/1.1" 200 -
+2019-07-22 18:51:47,098 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 18:51:47] "GET /favicon.ico HTTP/1.1" 404 -
+2019-07-22 18:53:36,181 - werkzeug - INFO -  * Detected change in '/Users/abianbiya/PycharmProjects/Maliya/main.py', reloading
+2019-07-22 19:00:19,883 - pyswarms.discrete.binary - INFO - Optimize for 100 iters with {'c1': 0.5, 'c2': 0.5, 'w': 0.9, 'k': 30, 'p': 2}
+2019-07-22 19:00:28,028 - pyswarms.discrete.binary - INFO - Optimization finished | best cost: 0.03508771929824561, best pos: [1 0 1 0 1 1 0 1 1 0 0 1 0 1 1 1 0 1 0 0 1 1 0 0 0 0 0 1 0 1]
+2019-07-22 19:00:28,319 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:00:28] "GET /pso HTTP/1.1" 200 -
+2019-07-22 19:00:28,347 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:00:28] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+2019-07-22 19:00:28,347 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:00:28] "GET /static/css/basic.css HTTP/1.1" 304 -
+2019-07-22 19:00:28,347 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:00:28] "GET /static/css/dropzone.css HTTP/1.1" 304 -
+2019-07-22 19:00:28,351 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:00:28] "GET /static/js/vendor/jquery.min.js HTTP/1.1" 304 -
+2019-07-22 19:00:28,352 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:00:28] "GET /static/js/vendor/popper.min.js HTTP/1.1" 304 -
+2019-07-22 19:00:28,355 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:00:28] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+2019-07-22 19:00:28,357 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:00:28] "GET /static/js/dropzone.js HTTP/1.1" 304 -
+2019-07-22 19:01:32,734 - pyswarms.discrete.binary - INFO - Optimize for 100 iters with {'c1': 0.5, 'c2': 0.5, 'w': 0.9, 'k': 30, 'p': 2}
+2019-07-22 19:01:40,442 - pyswarms.discrete.binary - INFO - Optimization finished | best cost: 0.03508771929824561, best pos: [0 1 0 0 0 0 1 0 0 1 0 0 0 0 1 0 0 1 0 0 0 0 0 1 1 1 0 1 0 1]
+2019-07-22 19:01:40,465 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:01:40] "GET /pso HTTP/1.1" 200 -
+2019-07-22 19:01:40,488 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:01:40] "GET /static/css/basic.css HTTP/1.1" 304 -
+2019-07-22 19:01:40,489 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:01:40] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+2019-07-22 19:01:40,491 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:01:40] "GET /static/css/dropzone.css HTTP/1.1" 304 -
+2019-07-22 19:01:40,493 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:01:40] "GET /static/js/vendor/jquery.min.js HTTP/1.1" 304 -
+2019-07-22 19:01:40,494 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:01:40] "GET /static/js/vendor/popper.min.js HTTP/1.1" 304 -
+2019-07-22 19:01:40,496 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:01:40] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+2019-07-22 19:01:40,497 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:01:40] "GET /static/js/dropzone.js HTTP/1.1" 304 -
+2019-07-22 19:02:25,621 - pyswarms.discrete.binary - INFO - Optimize for 100 iters with {'c1': 0.5, 'c2': 0.5, 'w': 0.9, 'k': 30, 'p': 2}
+2019-07-22 19:02:34,035 - pyswarms.discrete.binary - INFO - Optimization finished | best cost: 0.023391812865497075, best pos: [1 1 0 0 0 1 1 1 0 1 1 0 1 0 0 1 1 1 0 0 1 0 0 0 0 1 1 0 0 1]
+2019-07-22 19:02:34,057 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:02:34] "GET /pso HTTP/1.1" 200 -
+2019-07-22 19:02:34,077 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:02:34] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+2019-07-22 19:02:34,078 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:02:34] "GET /static/css/basic.css HTTP/1.1" 304 -
+2019-07-22 19:02:34,080 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:02:34] "GET /static/css/dropzone.css HTTP/1.1" 304 -
+2019-07-22 19:02:34,083 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:02:34] "GET /static/js/vendor/jquery.min.js HTTP/1.1" 304 -
+2019-07-22 19:02:34,085 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:02:34] "GET /static/js/vendor/popper.min.js HTTP/1.1" 304 -
+2019-07-22 19:02:34,087 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:02:34] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+2019-07-22 19:02:34,088 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:02:34] "GET /static/js/dropzone.js HTTP/1.1" 304 -
+2019-07-22 19:02:53,320 - pyswarms.discrete.binary - INFO - Optimize for 100 iters with {'c1': 0.5, 'c2': 0.5, 'w': 0.9, 'k': 30, 'p': 2}
+2019-07-22 19:03:01,171 - pyswarms.discrete.binary - INFO - Optimize for 100 iters with {'c1': 0.5, 'c2': 0.5, 'w': 0.9, 'k': 30, 'p': 2}
+2019-07-22 19:03:02,156 - pyswarms.discrete.binary - INFO - Optimization finished | best cost: 0.0292397660818714, best pos: [0 1 0 0 0 0 1 1 0 1 1 0 0 0 1 1 1 0 1 1 1 0 0 0 1 1 1 1 0 0]
+2019-07-22 19:03:02,182 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:03:02] "GET /pso HTTP/1.1" 200 -
+2019-07-22 19:03:09,991 - pyswarms.discrete.binary - INFO - Optimization finished | best cost: 0.03508771929824561, best pos: [0 0 0 0 0 0 1 1 0 0 0 0 1 0 1 1 1 1 1 1 1 1 0 0 1 0 1 1 1 1]
+2019-07-22 19:03:10,011 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:03:10] "GET /pso HTTP/1.1" 200 -
+2019-07-22 19:03:28,452 - pyswarms.discrete.binary - INFO - Optimize for 100 iters with {'c1': 0.5, 'c2': 0.5, 'w': 0.9, 'k': 30, 'p': 2}
+2019-07-22 19:03:36,760 - pyswarms.discrete.binary - INFO - Optimization finished | best cost: 0.03508771929824561, best pos: [0 0 0 0 0 0 1 1 1 0 0 0 1 0 0 0 1 0 0 1 1 1 0 0 0 0 0 1 0 1]
+2019-07-22 19:03:36,782 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:03:36] "GET /pso HTTP/1.1" 200 -
+2019-07-22 19:03:36,803 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:03:36] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+2019-07-22 19:03:36,805 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:03:36] "GET /static/css/dropzone.css HTTP/1.1" 304 -
+2019-07-22 19:03:36,805 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:03:36] "GET /static/css/basic.css HTTP/1.1" 304 -
+2019-07-22 19:03:36,808 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:03:36] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+2019-07-22 19:03:36,810 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:03:36] "GET /static/js/vendor/jquery.min.js HTTP/1.1" 304 -
+2019-07-22 19:03:36,812 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:03:36] "GET /static/js/vendor/popper.min.js HTTP/1.1" 304 -
+2019-07-22 19:03:36,814 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:03:36] "GET /static/js/dropzone.js HTTP/1.1" 304 -
+2019-07-22 19:07:46,830 - werkzeug - INFO -  * Detected change in '/Users/abianbiya/PycharmProjects/Maliya/main.py', reloading
+2019-07-22 19:08:31,436 - pyswarms.discrete.binary - INFO - Optimize for 100 iters with {'c1': 0.5, 'c2': 0.5, 'w': 0.9, 'k': 30, 'p': 2}
+2019-07-22 19:08:40,285 - pyswarms.discrete.binary - INFO - Optimization finished | best cost: 0.03508771929824561, best pos: [1 0 0 0 1 1 1 0 0 1 1 0 1 0 0 1 0 1 0 1 1 1 0 0 0 0 1 1 0 1]
+2019-07-22 19:08:40,336 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:08:40] "GET /pso HTTP/1.1" 500 -
+2019-07-22 19:08:40,356 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:08:40] "GET /pso?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2019-07-22 19:08:40,366 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:08:40] "GET /pso?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2019-07-22 19:08:40,367 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:08:40] "GET /pso?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2019-07-22 19:08:40,402 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:08:40] "GET /pso?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2019-07-22 19:08:40,424 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:08:40] "GET /pso?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-07-22 19:08:55,040 - pyswarms.discrete.binary - INFO - Optimize for 100 iters with {'c1': 0.5, 'c2': 0.5, 'w': 0.9, 'k': 30, 'p': 2}
+2019-07-22 19:09:03,222 - pyswarms.discrete.binary - INFO - Optimization finished | best cost: 0.03508771929824561, best pos: [1 1 1 0 0 1 0 0 0 0 0 1 0 0 1 0 0 0 1 1 0 0 1 0 1 0 1 1 0 1]
+2019-07-22 19:09:03,258 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:09:03] "GET /pso HTTP/1.1" 500 -
+2019-07-22 19:09:03,277 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:09:03] "GET /pso?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2019-07-22 19:09:03,278 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:09:03] "GET /pso?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2019-07-22 19:09:03,278 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:09:03] "GET /pso?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2019-07-22 19:09:03,337 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:09:03] "GET /pso?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-07-22 19:09:42,630 - pyswarms.discrete.binary - INFO - Optimize for 100 iters with {'c1': 0.5, 'c2': 0.5, 'w': 0.9, 'k': 30, 'p': 2}
+2019-07-22 19:09:51,085 - pyswarms.discrete.binary - INFO - Optimization finished | best cost: 0.0292397660818714, best pos: [1 1 0 0 1 1 0 0 1 1 1 0 0 0 0 0 1 0 1 0 1 0 0 0 1 0 0 1 0 1]
+2019-07-22 19:09:51,113 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:09:51] "GET /pso HTTP/1.1" 200 -
+2019-07-22 19:09:51,145 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:09:51] "GET /static/js/vendor/popper.min.js HTTP/1.1" 304 -
+2019-07-22 19:09:51,145 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:09:51] "GET /static/js/vendor/jquery.min.js HTTP/1.1" 304 -
+2019-07-22 19:09:51,147 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:09:51] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+2019-07-22 19:09:51,151 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:09:51] "GET /static/js/dropzone.js HTTP/1.1" 304 -
+2019-07-22 19:09:51,152 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:09:51] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+2019-07-22 19:09:51,155 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:09:51] "GET /static/css/basic.css HTTP/1.1" 304 -
+2019-07-22 19:09:51,157 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:09:51] "GET /static/css/dropzone.css HTTP/1.1" 304 -
+2019-07-22 19:10:31,155 - werkzeug - INFO -  * Detected change in '/Users/abianbiya/PycharmProjects/Maliya/main.py', reloading
+2019-07-22 19:13:44,070 - pyswarms.discrete.binary - INFO - Optimize for 100 iters with {'c1': 0.5, 'c2': 0.5, 'w': 0.9, 'k': 30, 'p': 2}
+2019-07-22 19:13:52,363 - pyswarms.discrete.binary - INFO - Optimization finished | best cost: 0.03508771929824561, best pos: [1 0 0 1 1 1 1 1 0 1 0 0 0 0 0 1 1 1 0 0 1 1 0 1 1 0 1 1 0 1]
+2019-07-22 19:13:52,401 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:13:52] "GET /pso HTTP/1.1" 200 -
+2019-07-22 19:13:52,423 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:13:52] "GET /static/js/vendor/popper.min.js HTTP/1.1" 304 -
+2019-07-22 19:13:52,425 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:13:52] "GET /static/js/vendor/jquery.min.js HTTP/1.1" 304 -
+2019-07-22 19:13:52,426 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:13:52] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+2019-07-22 19:13:52,427 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:13:52] "GET /static/js/dropzone.js HTTP/1.1" 304 -
+2019-07-22 19:13:52,429 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:13:52] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+2019-07-22 19:13:52,431 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:13:52] "GET /static/css/basic.css HTTP/1.1" 304 -
+2019-07-22 19:13:52,433 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:13:52] "GET /static/css/dropzone.css HTTP/1.1" 304 -
+2019-07-22 19:14:46,513 - pyswarms.discrete.binary - INFO - Optimize for 100 iters with {'c1': 0.5, 'c2': 0.5, 'w': 0.9, 'k': 30, 'p': 2}
+2019-07-22 19:14:55,039 - pyswarms.discrete.binary - INFO - Optimization finished | best cost: 0.03508771929824561, best pos: [1 0 0 1 0 1 1 1 1 0 0 0 0 0 1 1 0 1 1 0 1 1 1 1 0 0 1 1 0 1]
+2019-07-22 19:14:55,062 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:14:55] "GET /pso HTTP/1.1" 200 -
+2019-07-22 19:14:55,082 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:14:55] "GET /static/js/vendor/jquery.min.js HTTP/1.1" 304 -
+2019-07-22 19:14:55,083 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:14:55] "GET /static/js/vendor/popper.min.js HTTP/1.1" 304 -
+2019-07-22 19:14:55,085 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:14:55] "GET /static/js/dropzone.js HTTP/1.1" 304 -
+2019-07-22 19:14:55,091 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:14:55] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+2019-07-22 19:14:55,092 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:14:55] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+2019-07-22 19:14:55,094 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:14:55] "GET /static/css/basic.css HTTP/1.1" 304 -
+2019-07-22 19:14:55,095 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:14:55] "GET /static/css/dropzone.css HTTP/1.1" 304 -
+2019-07-22 19:15:05,579 - werkzeug - INFO -  * Detected change in '/Users/abianbiya/PycharmProjects/Maliya/main.py', reloading
+2019-07-22 19:15:52,601 - pyswarms.discrete.binary - INFO - Optimize for 100 iters with {'c1': 0.5, 'c2': 0.5, 'w': 0.9, 'k': 30, 'p': 2}
+2019-07-22 19:16:00,744 - pyswarms.discrete.binary - INFO - Optimization finished | best cost: 0.03508771929824561, best pos: [0 0 0 0 1 1 1 0 0 1 0 1 0 1 0 0 1 1 0 0 1 1 0 0 1 0 0 1 0 0]
+2019-07-22 19:16:00,755 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:16:00] "GET /pso HTTP/1.1" 500 -
+2019-07-22 19:16:00,782 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:16:00] "GET /pso?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2019-07-22 19:16:00,782 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:16:00] "GET /pso?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2019-07-22 19:16:00,783 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:16:00] "GET /pso?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2019-07-22 19:16:00,818 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:16:00] "GET /pso?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2019-07-22 19:16:00,843 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:16:00] "GET /pso?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-07-22 19:17:29,173 - werkzeug - INFO -  * Detected change in '/Users/abianbiya/PycharmProjects/Maliya/main.py', reloading
+2019-07-22 19:19:49,366 - pyswarms.discrete.binary - INFO - Optimize for 100 iters with {'c1': 0.5, 'c2': 0.5, 'w': 0.9, 'k': 30, 'p': 2}
+2019-07-22 19:19:58,497 - pyswarms.discrete.binary - INFO - Optimization finished | best cost: 0.03508771929824561, best pos: [0 0 0 0 0 1 0 1 1 1 1 0 0 1 1 1 0 1 1 1 1 1 0 0 1 0 0 1 1 1]
+2019-07-22 19:19:58,553 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:19:58] "GET /pso HTTP/1.1" 500 -
+2019-07-22 19:19:58,580 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:19:58] "GET /pso?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2019-07-22 19:19:58,582 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:19:58] "GET /pso?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2019-07-22 19:19:58,582 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:19:58] "GET /pso?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2019-07-22 19:19:58,642 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:19:58] "GET /pso?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-07-22 19:20:09,660 - pyswarms.discrete.binary - INFO - Optimize for 100 iters with {'c1': 0.5, 'c2': 0.5, 'w': 0.9, 'k': 30, 'p': 2}
+2019-07-22 19:20:17,891 - pyswarms.discrete.binary - INFO - Optimization finished | best cost: 0.03508771929824561, best pos: [0 0 0 0 0 0 1 1 0 1 0 0 1 0 0 1 0 0 1 0 1 1 0 0 0 0 1 1 1 0]
+2019-07-22 19:20:17,919 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:20:17] "GET /pso HTTP/1.1" 200 -
+2019-07-22 19:20:17,941 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:20:17] "GET /static/js/vendor/jquery.min.js HTTP/1.1" 304 -
+2019-07-22 19:20:17,942 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:20:17] "GET /static/js/vendor/popper.min.js HTTP/1.1" 304 -
+2019-07-22 19:20:17,943 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:20:17] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+2019-07-22 19:20:17,945 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:20:17] "GET /static/js/dropzone.js HTTP/1.1" 304 -
+2019-07-22 19:20:17,946 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:20:17] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+2019-07-22 19:20:17,950 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:20:17] "GET /static/css/basic.css HTTP/1.1" 304 -
+2019-07-22 19:20:17,951 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:20:17] "GET /static/css/dropzone.css HTTP/1.1" 304 -
+2019-07-22 19:21:11,601 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:21:11] "GET /static/css/bootstrap.min.css.map HTTP/1.1" 200 -
+2019-07-22 19:21:45,891 - pyswarms.discrete.binary - INFO - Optimize for 100 iters with {'c1': 0.5, 'c2': 0.5, 'w': 0.9, 'k': 30, 'p': 2}
+2019-07-22 19:21:54,630 - pyswarms.discrete.binary - INFO - Optimization finished | best cost: 0.040935672514619936, best pos: [1 0 0 0 0 0 1 1 1 0 0 1 1 0 1 1 1 0 1 0 0 1 0 1 1 1 1 1 0 0]
+2019-07-22 19:21:54,656 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:21:54] "GET /pso HTTP/1.1" 200 -
+2019-07-22 19:21:54,698 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:21:54] "GET /static/js/dropzone.js HTTP/1.1" 304 -
+2019-07-22 19:21:54,699 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:21:54] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+2019-07-22 19:21:54,700 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:21:54] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+2019-07-22 19:21:54,700 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:21:54] "GET /static/js/vendor/popper.min.js HTTP/1.1" 304 -
+2019-07-22 19:21:54,700 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:21:54] "GET /static/js/vendor/jquery.min.js HTTP/1.1" 304 -
+2019-07-22 19:21:54,701 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:21:54] "GET /static/css/basic.css HTTP/1.1" 304 -
+2019-07-22 19:21:54,710 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:21:54] "GET /static/css/dropzone.css HTTP/1.1" 304 -
+2019-07-22 19:22:15,536 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:22:15] "GET /dt HTTP/1.1" 200 -
+2019-07-22 19:22:25,376 - pyswarms.discrete.binary - INFO - Optimize for 100 iters with {'c1': 0.5, 'c2': 0.5, 'w': 0.9, 'k': 30, 'p': 2}
+2019-07-22 19:22:33,579 - pyswarms.discrete.binary - INFO - Optimization finished | best cost: 0.03508771929824561, best pos: [1 0 0 0 1 1 1 1 1 0 0 0 1 0 0 1 0 1 1 1 1 1 0 0 0 0 0 1 0 0]
+2019-07-22 19:22:33,598 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:22:33] "GET /pso HTTP/1.1" 200 -
+2019-07-22 19:26:18,157 - werkzeug - INFO -  * Detected change in '/Users/abianbiya/PycharmProjects/Maliya/main.py', reloading
+2019-07-22 19:26:20,059 - pyswarms.discrete.binary - INFO - Optimize for 100 iters with {'c1': 0.5, 'c2': 0.5, 'w': 0.9, 'k': 30, 'p': 2}
+2019-07-22 19:26:21,518 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:26:21] "GET /dataset HTTP/1.1" 200 -
+2019-07-22 19:26:22,533 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:26:22] "GET /about HTTP/1.1" 200 -
+2019-07-22 19:26:29,026 - pyswarms.discrete.binary - INFO - Optimization finished | best cost: 0.0292397660818714, best pos: [0 1 1 0 0 1 1 1 1 0 1 1 0 0 0 1 0 1 0 1 1 0 0 1 1 1 0 0 0 0]
+2019-07-22 19:26:29,058 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:26:29] "GET /pso HTTP/1.1" 200 -
+2019-07-22 19:26:41,298 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:26:41] "GET /about HTTP/1.1" 200 -
+2019-07-22 19:26:41,332 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:26:41] "GET /static/css/basic.css HTTP/1.1" 304 -
+2019-07-22 19:26:41,332 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:26:41] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+2019-07-22 19:26:41,333 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:26:41] "GET /static/js/vendor/jquery.min.js HTTP/1.1" 304 -
+2019-07-22 19:26:41,333 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:26:41] "GET /static/js/vendor/popper.min.js HTTP/1.1" 304 -
+2019-07-22 19:26:41,334 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:26:41] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+2019-07-22 19:26:41,334 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:26:41] "GET /static/css/dropzone.css HTTP/1.1" 304 -
+2019-07-22 19:26:41,341 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:26:41] "GET /static/js/dropzone.js HTTP/1.1" 304 -
+2019-07-22 19:27:05,244 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:27:05] "GET /about HTTP/1.1" 200 -
+2019-07-22 19:27:05,263 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:27:05] "GET /static/css/basic.css HTTP/1.1" 304 -
+2019-07-22 19:27:05,263 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:27:05] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+2019-07-22 19:27:05,265 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:27:05] "GET /static/css/dropzone.css HTTP/1.1" 304 -
+2019-07-22 19:27:05,267 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:27:05] "GET /static/js/vendor/jquery.min.js HTTP/1.1" 304 -
+2019-07-22 19:27:05,272 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:27:05] "GET /static/js/vendor/popper.min.js HTTP/1.1" 304 -
+2019-07-22 19:27:05,273 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:27:05] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+2019-07-22 19:27:05,274 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:27:05] "GET /static/js/dropzone.js HTTP/1.1" 304 -
+2019-07-22 19:27:25,651 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:27:25] "GET /about HTTP/1.1" 200 -
+2019-07-22 19:27:25,684 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:27:25] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+2019-07-22 19:27:25,685 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:27:25] "GET /static/css/basic.css HTTP/1.1" 304 -
+2019-07-22 19:27:25,686 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:27:25] "GET /static/css/dropzone.css HTTP/1.1" 304 -
+2019-07-22 19:27:25,688 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:27:25] "GET /static/js/vendor/jquery.min.js HTTP/1.1" 304 -
+2019-07-22 19:27:25,691 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:27:25] "GET /static/js/vendor/popper.min.js HTTP/1.1" 304 -
+2019-07-22 19:27:25,693 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:27:25] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+2019-07-22 19:27:25,695 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:27:25] "GET /static/js/dropzone.js HTTP/1.1" 304 -
+2019-07-22 19:27:46,582 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:27:46] "GET /about HTTP/1.1" 200 -
+2019-07-22 19:27:46,612 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:27:46] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+2019-07-22 19:27:46,614 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:27:46] "GET /static/css/basic.css HTTP/1.1" 304 -
+2019-07-22 19:27:46,615 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:27:46] "GET /static/css/dropzone.css HTTP/1.1" 304 -
+2019-07-22 19:27:46,618 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:27:46] "GET /static/js/vendor/jquery.min.js HTTP/1.1" 304 -
+2019-07-22 19:27:46,624 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:27:46] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+2019-07-22 19:27:46,625 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:27:46] "GET /static/js/vendor/popper.min.js HTTP/1.1" 304 -
+2019-07-22 19:27:46,627 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:27:46] "GET /static/js/dropzone.js HTTP/1.1" 304 -
+2019-07-22 19:27:54,800 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:27:54] "GET /about HTTP/1.1" 200 -
+2019-07-22 19:27:54,836 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:27:54] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+2019-07-22 19:27:54,838 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:27:54] "GET /static/css/basic.css HTTP/1.1" 304 -
+2019-07-22 19:27:54,844 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:27:54] "GET /static/css/dropzone.css HTTP/1.1" 304 -
+2019-07-22 19:27:54,845 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:27:54] "GET /static/js/vendor/jquery.min.js HTTP/1.1" 304 -
+2019-07-22 19:27:54,847 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:27:54] "GET /static/js/vendor/popper.min.js HTTP/1.1" 304 -
+2019-07-22 19:27:54,850 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:27:54] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+2019-07-22 19:27:54,851 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:27:54] "GET /static/js/dropzone.js HTTP/1.1" 304 -
+2019-07-22 19:28:44,220 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:28:44] "GET /about HTTP/1.1" 200 -
+2019-07-22 19:28:44,247 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:28:44] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+2019-07-22 19:28:44,247 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:28:44] "GET /static/css/basic.css HTTP/1.1" 304 -
+2019-07-22 19:28:44,249 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:28:44] "GET /static/css/dropzone.css HTTP/1.1" 304 -
+2019-07-22 19:28:44,250 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:28:44] "GET /static/js/vendor/jquery.min.js HTTP/1.1" 304 -
+2019-07-22 19:28:44,253 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:28:44] "GET /static/js/vendor/popper.min.js HTTP/1.1" 304 -
+2019-07-22 19:28:44,254 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:28:44] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+2019-07-22 19:28:44,258 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:28:44] "GET /static/js/dropzone.js HTTP/1.1" 304 -
+2019-07-22 19:29:01,291 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:29:01] "GET /about HTTP/1.1" 200 -
+2019-07-22 19:29:01,321 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:29:01] "GET /static/css/basic.css HTTP/1.1" 304 -
+2019-07-22 19:29:01,322 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:29:01] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+2019-07-22 19:29:01,323 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:29:01] "GET /static/css/dropzone.css HTTP/1.1" 304 -
+2019-07-22 19:29:01,326 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:29:01] "GET /static/js/vendor/jquery.min.js HTTP/1.1" 304 -
+2019-07-22 19:29:01,327 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:29:01] "GET /static/js/vendor/popper.min.js HTTP/1.1" 304 -
+2019-07-22 19:29:01,330 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:29:01] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+2019-07-22 19:29:01,331 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 19:29:01] "GET /static/js/dropzone.js HTTP/1.1" 304 -
+2019-07-22 20:14:30,805 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:14:30] "GET /about HTTP/1.1" 200 -
+2019-07-22 20:14:30,828 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:14:30] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+2019-07-22 20:14:30,831 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:14:30] "GET /static/css/basic.css HTTP/1.1" 304 -
+2019-07-22 20:14:30,833 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:14:30] "GET /static/css/dropzone.css HTTP/1.1" 304 -
+2019-07-22 20:14:30,835 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:14:30] "GET /static/js/vendor/jquery.min.js HTTP/1.1" 304 -
+2019-07-22 20:14:30,837 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:14:30] "GET /static/js/vendor/popper.min.js HTTP/1.1" 304 -
+2019-07-22 20:14:30,838 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:14:30] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+2019-07-22 20:14:30,840 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:14:30] "GET /static/js/dropzone.js HTTP/1.1" 304 -
+2019-07-22 20:14:31,843 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:14:31] "GET / HTTP/1.1" 200 -
+2019-07-22 20:14:32,624 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:14:32] "GET /about HTTP/1.1" 200 -
+2019-07-22 20:15:15,266 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:15:15] "GET /about HTTP/1.1" 200 -
+2019-07-22 20:15:15,290 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:15:15] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+2019-07-22 20:15:15,293 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:15:15] "GET /static/css/basic.css HTTP/1.1" 304 -
+2019-07-22 20:15:15,296 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:15:15] "GET /static/css/dropzone.css HTTP/1.1" 304 -
+2019-07-22 20:15:15,299 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:15:15] "GET /static/js/vendor/jquery.min.js HTTP/1.1" 304 -
+2019-07-22 20:15:15,301 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:15:15] "GET /static/js/vendor/popper.min.js HTTP/1.1" 304 -
+2019-07-22 20:15:15,304 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:15:15] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+2019-07-22 20:15:15,307 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:15:15] "GET /static/js/dropzone.js HTTP/1.1" 304 -
+2019-07-22 20:15:17,006 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:15:17] "GET / HTTP/1.1" 200 -
+2019-07-22 20:15:44,093 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:15:44] "GET / HTTP/1.1" 200 -
+2019-07-22 20:15:44,121 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:15:44] "GET /static/css/bootstrap.min.css HTTP/1.1" 304 -
+2019-07-22 20:15:44,127 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:15:44] "GET /static/css/basic.css HTTP/1.1" 304 -
+2019-07-22 20:15:44,129 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:15:44] "GET /static/css/dropzone.css HTTP/1.1" 304 -
+2019-07-22 20:15:44,131 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:15:44] "GET /static/js/vendor/jquery.min.js HTTP/1.1" 304 -
+2019-07-22 20:15:44,137 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:15:44] "GET /static/js/bootstrap.min.js HTTP/1.1" 304 -
+2019-07-22 20:15:44,137 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:15:44] "GET /static/js/vendor/popper.min.js HTTP/1.1" 304 -
+2019-07-22 20:15:44,138 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:15:44] "GET /static/js/dropzone.js HTTP/1.1" 304 -
+2019-07-22 20:15:44,139 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:15:44] "GET /static/usm.png HTTP/1.1" 304 -
+2019-07-22 20:15:54,832 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:15:54] "GET / HTTP/1.1" 200 -
+2019-07-22 20:15:55,803 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:15:55] "GET /about HTTP/1.1" 200 -
+2019-07-22 20:16:10,775 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:16:10] "GET / HTTP/1.1" 200 -
+2019-07-22 20:16:11,573 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:16:11] "GET /about HTTP/1.1" 200 -
+2019-07-22 20:16:12,434 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:16:12] "GET /dataset HTTP/1.1" 200 -
+2019-07-22 20:16:18,551 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:16:18] "GET /dataset HTTP/1.1" 200 -
+2019-07-22 20:16:19,740 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:16:19] "GET /dataset HTTP/1.1" 200 -
+2019-07-22 20:16:20,140 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:16:20] "GET /dataset HTTP/1.1" 200 -
+2019-07-22 20:16:20,343 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:16:20] "GET /dataset HTTP/1.1" 200 -
+2019-07-22 20:16:20,551 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:16:20] "GET /dataset HTTP/1.1" 200 -
+2019-07-22 20:16:20,766 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:16:20] "GET /dataset HTTP/1.1" 200 -
+2019-07-22 20:16:20,963 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:16:20] "GET /dataset HTTP/1.1" 200 -
+2019-07-22 20:16:21,180 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:16:21] "GET /dataset HTTP/1.1" 200 -
+2019-07-22 20:16:38,215 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:16:38] "GET /dataset HTTP/1.1" 200 -
+2019-07-22 20:16:38,945 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:16:38] "GET /dt HTTP/1.1" 200 -
+2019-07-22 20:17:43,153 - pyswarms.discrete.binary - INFO - Optimize for 100 iters with {'c1': 0.5, 'c2': 0.5, 'w': 0.9, 'k': 30, 'p': 2}
+2019-07-22 20:17:51,298 - pyswarms.discrete.binary - INFO - Optimization finished | best cost: 0.03508771929824561, best pos: [1 0 0 0 1 0 1 1 1 0 1 0 0 0 1 1 0 1 0 0 0 1 1 1 0 0 1 1 0 1]
+2019-07-22 20:17:51,317 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:17:51] "GET /pso HTTP/1.1" 200 -
+2019-07-22 20:19:59,267 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:19:59] "GET /dt HTTP/1.1" 200 -
+2019-07-22 20:20:02,327 - pyswarms.discrete.binary - INFO - Optimize for 100 iters with {'c1': 0.5, 'c2': 0.5, 'w': 0.9, 'k': 30, 'p': 2}
+2019-07-22 20:20:10,500 - pyswarms.discrete.binary - INFO - Optimization finished | best cost: 0.0292397660818714, best pos: [1 1 1 1 1 1 1 1 0 0 0 0 0 0 1 1 0 1 0 0 1 0 0 0 0 1 0 1 0 0]
+2019-07-22 20:20:10,519 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:20:10] "GET /pso HTTP/1.1" 200 -
+2019-07-22 20:20:58,090 - pyswarms.discrete.binary - INFO - Optimize for 100 iters with {'c1': 0.5, 'c2': 0.5, 'w': 0.9, 'k': 30, 'p': 2}
+2019-07-22 20:21:06,110 - pyswarms.discrete.binary - INFO - Optimization finished | best cost: 0.03508771929824561, best pos: [1 1 0 1 1 0 0 1 1 0 0 0 0 0 1 1 1 0 1 0 1 0 0 0 0 1 1 1 0 1]
+2019-07-22 20:21:06,131 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:21:06] "GET /pso HTTP/1.1" 200 -
+2019-07-22 20:21:34,953 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:21:34] "GET /dt HTTP/1.1" 200 -
+2019-07-22 20:21:39,052 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:21:39] "GET /dataset HTTP/1.1" 200 -
+2019-07-22 20:21:45,275 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:21:45] "GET /dt HTTP/1.1" 200 -
+2019-07-22 20:21:50,894 - pyswarms.discrete.binary - INFO - Optimize for 100 iters with {'c1': 0.5, 'c2': 0.5, 'w': 0.9, 'k': 30, 'p': 2}
+2019-07-22 20:21:59,322 - pyswarms.discrete.binary - INFO - Optimization finished | best cost: 0.03508771929824561, best pos: [1 0 0 0 1 0 1 0 1 1 1 0 1 0 1 0 0 0 1 1 1 1 0 0 1 0 0 1 0 1]
+2019-07-22 20:21:59,343 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:21:59] "GET /pso HTTP/1.1" 200 -
+2019-07-22 20:22:33,572 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:22:33] "GET /dt HTTP/1.1" 200 -
+2019-07-22 20:25:49,397 - pyswarms.discrete.binary - INFO - Optimize for 100 iters with {'c1': 0.5, 'c2': 0.5, 'w': 0.9, 'k': 30, 'p': 2}
+2019-07-22 20:25:57,712 - pyswarms.discrete.binary - INFO - Optimization finished | best cost: 0.040935672514619936, best pos: [0 0 1 0 1 1 1 0 0 0 0 1 0 0 1 0 1 1 0 0 1 1 1 1 1 1 1 1 1 1]
+2019-07-22 20:25:57,734 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:25:57] "GET /pso HTTP/1.1" 200 -
+2019-07-22 20:27:30,243 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:27:30] "GET /dt HTTP/1.1" 200 -
+2019-07-22 20:27:33,074 - pyswarms.discrete.binary - INFO - Optimize for 100 iters with {'c1': 0.5, 'c2': 0.5, 'w': 0.9, 'k': 30, 'p': 2}
+2019-07-22 20:27:41,437 - pyswarms.discrete.binary - INFO - Optimization finished | best cost: 0.03508771929824561, best pos: [0 0 0 0 1 0 1 1 1 0 1 1 1 1 0 0 1 1 0 1 1 1 0 0 1 0 0 1 1 1]
+2019-07-22 20:27:41,458 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:27:41] "GET /pso HTTP/1.1" 200 -
+2019-07-22 20:30:19,959 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:30:19] "GET /dataset HTTP/1.1" 200 -
+2019-07-22 20:30:21,899 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:30:21] "GET /dt HTTP/1.1" 200 -
+2019-07-22 20:30:23,572 - pyswarms.discrete.binary - INFO - Optimize for 100 iters with {'c1': 0.5, 'c2': 0.5, 'w': 0.9, 'k': 30, 'p': 2}
+2019-07-22 20:30:32,045 - pyswarms.discrete.binary - INFO - Optimization finished | best cost: 0.0292397660818714, best pos: [1 1 1 0 0 0 0 1 0 0 1 1 1 0 0 1 1 0 1 1 1 0 0 0 0 1 1 0 0 1]
+2019-07-22 20:30:32,064 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:30:32] "GET /pso HTTP/1.1" 200 -
+2019-07-22 20:33:05,660 - pyswarms.discrete.binary - INFO - Optimize for 100 iters with {'c1': 0.5, 'c2': 0.5, 'w': 0.9, 'k': 30, 'p': 2}
+2019-07-22 20:33:14,025 - pyswarms.discrete.binary - INFO - Optimization finished | best cost: 0.03508771929824561, best pos: [0 0 1 0 0 0 1 0 0 1 0 0 0 0 0 1 1 1 1 1 1 1 0 1 1 0 0 1 0 1]
+2019-07-22 20:33:14,044 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:33:14] "GET /pso HTTP/1.1" 200 -
+2019-07-22 20:38:58,597 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:38:58] "GET / HTTP/1.1" 200 -
+2019-07-22 20:39:03,478 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:39:03] "GET / HTTP/1.1" 200 -
+2019-07-22 20:39:29,448 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:39:29] "GET /dataset HTTP/1.1" 200 -
+2019-07-22 20:39:48,802 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:39:48] "GET /about HTTP/1.1" 200 -
+2019-07-22 20:39:49,191 - werkzeug - INFO -  * Detected change in '/Users/abianbiya/PycharmProjects/Maliya/main.py', reloading
+2019-07-22 20:46:00,200 - pyswarms.discrete.binary - INFO - Optimize for 100 iters with {'c1': 0.5, 'c2': 0.5, 'w': 0.9, 'k': 30, 'p': 2}
+2019-07-22 20:46:08,421 - pyswarms.discrete.binary - INFO - Optimization finished | best cost: 0.03508771929824561, best pos: [0 1 0 0 1 1 0 1 0 1 1 0 0 0 1 1 1 1 0 1 1 0 0 0 0 1 0 1 1 0]
+2019-07-22 20:46:08,460 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2019 20:46:08] "GET /pso HTTP/1.1" 200 -

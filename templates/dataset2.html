@@ -1,0 +1,55 @@
+{% extends 'index.html' %}
+
+{% block isi %}
+
+<center><h2>Diagnostic Breast Cancer Dataset</h2><h4> UCI Machine Learning Repository </h4></center><br><br>
+
+    <div class="row mt">
+              <div class="col-lg-12">
+                      <div class="content-panel">
+						  <h4><i class="fa fa-angle-right"></i> Deskripsi Dataset</h4>
+                          <section id="no-more-tables">
+                              <table class="table table-bordered table-striped table-condensed cf">
+                                 <thead class="cf">
+                                  <tr>
+                                      <th> <center> No.</center></th>
+                                      <th>Deskripsi</th>
+                                      <th class="numeric">Keterangan</th>
+
+                                  </tr>
+                                  </thead>
+                                  <tbody>
+                                  <tr>
+                                      <td align = "center" data-title="Code">1.</td>
+                                      <td data-title="Name">Nama Dataset</td>
+                                      <td class="numeric" data-title="Keterangan">Wisconsin Diagnostic Breast Cancer (WDBC)</td>
+                                  </tr>
+                                  <tr>
+                                      <td align = "center" data-title="Code">2.</td>
+                                      <td data-title="Name">Asal Dataset</td>
+                                      <td class="numeric" data-title="Keterangan">UCI Repository</td>
+                                  <tr>
+                                      <td align = "center" data-title="Code">3.</td>
+                                      <td data-title="Name">Jumlah instance</td>
+                                      <td class="numeric" data-title="Keterangan">569</td>
+                                  </tr>
+                                  <tr>
+                                      <td align = "center" data-title="Code">4.</td>
+                                      <td data-title="Name">Jumlah Atribut</td>
+                                      <td class="numeric" data-title="Keterangan">32 (ID, diagnosis, 30 real-valued input features)</td>
+                                  </tr>
+                                  <tr>
+                                      <td align = "center" data-title="Code">5.</td>
+                                      <td data-title="Name">Kelas/Label</td>
+                                      <td class="numeric" data-title="Keterangan">M = malignant, B = benign</td>
+                                  </tr>
+                                 </tbody>
+                              </table>
+                          </section>
+
+                          <center><a href="{{ url_for('dataset') }}" class="btn btn-primary">Download Dataset</a></center>
+
+                       </div><!-- /content-panel -->
+                  </div><!-- /col-lg-12 -->
+              </div><!-- /row -->
+{% endblock %}

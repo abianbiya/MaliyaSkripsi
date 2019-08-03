@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- <link rel="icon" href="../../../../favicon.ico"> -->
+
+    <title>Boosted Decision Tree with Feature Selection</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{{ url_for('static', filename='css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/basic.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/dropzone.css') }}" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <style>
+		body {
+		  padding-top: 5rem;
+		}
+		.starter-template {
+		  padding: 3rem 1.5rem;
+		  text-align: center;
+		}
+		/* layout.css Style */
+		.upload-drop-zone {
+		  height: 200px;
+		  border-width: 2px;
+		  margin-bottom: 20px;
+		}
+
+		/* skin.css Style*/
+		.upload-drop-zone {
+		  color: #ccc;
+		  border-style: dashed;
+		  border-color: #ccc;
+		  line-height: 200px;
+		  text-align: center
+		}
+		.upload-drop-zone.drop {
+		  color: #222;
+		  border-color: #222;
+		}
+		</style>
+  </head>
+
+  <body>
+
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+            <a class="navbar-brand" href="#">Decision Tree Classifier</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('home') }}">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('about') }}">Tentang</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('dataset') }}">Dataset</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('split') }}">Split Data</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('dt') }}">Klasifikasi C4.5</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('pso') }}">Optimasi PSO</a>
+                    </li>
+
+                </ul>
+                    <!-- <a href="javascript:window.history.back();" class="btn btn-outline-success my-2 my-sm-0">Back</a> -->
+            </div>
+        </nav>
+
+		{% block menu %}
+		{% endblock %}
+
+		{% block judul %}
+		{% endblock %}
+
+    <main role="main" class="container">
+
+				{% block isi %}
+				{% endblock %}
+
+    </main><!-- /.container -->
+
+		<script src="{{ url_for('static', filename='js/vendor/jquery.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/vendor/popper.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/dropzone.js') }}"></script>
+
+		{% block jsinline %}
+		{% endblock %}
+  </body>
+</html>

@@ -1,0 +1,45 @@
+{% extends 'index.html' %}
+
+
+{% block isi %}
+
+<center><h2><strong>Decision Tree</strong> Classifier</h2></center><br>
+
+<div class="row">
+	<div class="col-sm-6 offset-sm-3">
+		<div class="card" >
+			<div class="card-body">
+				<h5 class="card-title">Gini Importance</h5>
+				<table class="table table-hover">
+
+					<tbody id="table-info">
+						{% for i, item in importances %}
+						<tr><td>{{ names[i] }}</td><td>:</td><td>{{ item }}%</td></tr>
+						{% endfor %}
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</div><br>
+
+<div class="row">
+	<div class="col-sm-6 offset-sm-3">
+		<div class="card" >
+			<div class="card-body">
+				<h5 class="card-title">Akurasi Klasifikasi</h5>
+				<table class="table table-hover">
+					<tbody id="tabel-info">
+						<tr><td>Akurasi</td><td>:</td><td>{{ akurasi }}%</td></tr>
+						<tr><td>Jumlah Fitur</td><td>:</td><td>{{ atribut }}</td></tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</div><br>
+{% endblock %}
+
+{% block jsinline %}
+
+{% endblock %}
